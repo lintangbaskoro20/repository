@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_buat_ext"
+        android:layout_marginHorizontal="10dp"
+        android:text="Buat file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_baca_ext"
+        android:layout_marginHorizontal="10dp"
+        android:text="Baca File"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_edit_ext"
+        android:layout_marginHorizontal="10dp"
+        android:text="Edit File"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_hapus_ext"
+        android:layout_marginHorizontal="10dp"
+        android:text="Hapus File"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Hasil"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="#FFF"
+        android:background="#D8CACA"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/txt_tmp_ext"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+</LinearLayout>
